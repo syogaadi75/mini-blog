@@ -1,0 +1,19 @@
+.hover-animation {
+    @apply transition-all duration-300 ease-linear hover:-translate-y-4 hover:shadow-lg;
+}
+
+.paginationContainer {
+    @apply flex space-x-3 items-center justify-center w-full overflow-hidden text-gray-100 text-xs lg:text-sm lg:space-x-5;
+}
+
+.paginationContainer a {
+    @apply p-2 lg:hover:text-primary text-gray-900;
+}
+
+.pagination-button {
+    @apply py-2 px-3 flex space-x-1 lg:space-x-2 bg-primary text-gray-100  transition-all duration-300 ease-linear rounded items-center;
+}
+
+.paginationActive {
+    @apply p-2 rounded bg-primary text-gray-100;
+}
